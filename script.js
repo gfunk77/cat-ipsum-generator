@@ -12,11 +12,12 @@ const text = [
   `Cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water. `,
   `Milk the cow jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed paw at your fat belly. Gnaw the corn cob spill litter box, scratch at owner, destroy all furniture, especially couch and burrow under covers jump around on couch.`,
 ];
-
+// select elements
 const form = document.querySelector(".form");
 const amount = document.querySelector(".amount");
 const result = document.querySelector(".lorem-text");
 
+// eventListener 'submit
 form.addEventListener("submit", function (e) {
   // prevent the default (which is to submit to server)
   e.preventDefault();

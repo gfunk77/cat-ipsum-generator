@@ -121,7 +121,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-.value {
+.amount {
   border: transparent;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -143,4 +143,7 @@ body {
   width: 250px;
   margin: 0 auto;
   margin-bottom: 2rem;
+}
+.result {
+  margin-top: 2rem;
 }

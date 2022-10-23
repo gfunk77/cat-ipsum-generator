@@ -1,3 +1,5 @@
+https://cat-ipsum-generator.netlify.app
+
 Create a silly cat lorem ipsum generator.
 
 - Practice with 'submit' events in forms
